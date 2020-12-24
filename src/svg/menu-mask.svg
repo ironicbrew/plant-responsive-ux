@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="128px" height="128px" viewBox="0 0 128 128" fill-rule="evenodd">
+  <defs>
+    <filter id="f2" x="-0.1" y="0" width="100%" height="200%">
+      <feOffset result="offOut" in="SourceGraphic" dx="14" dy="24" />
+      <feColorMatrix result="matrixOut" in="offOut" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0" />
+      <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="10" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+      <!-- <feOffset result="offOut" in="SourceGraphic" dx="20" dy="20" />
+      <feColorMatrix result="matrixOut" in="offOut" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" />
+      <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="10" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" /> -->
+    </filter>
+  </defs>
+  <path filter="url(#f2)" fill="white" d="M 34.73,64.18
+           C 32.23,99.36 69.82,103.27 79.50,121.32
+             79.50,121.32 80.00,128.00 80.00,128.00
+             80.00,128.00 82.36,128.00 82.36,128.00
+             82.36,128.00 81.45,0.36 81.45,0.36
+             81.45,0.36 79.45,0.36 79.45,0.36
+             79.45,0.36 79.64,10.00 79.64,10.00
+             77.82,23.27 38.77,27.91 34.73,64.18 Z
+             M 59.31,62.08
+           C 55.12,66.65 60.05,69.44 62.69,67.92
+             65.33,66.40 65.37,60.74 59.31,62.08 Z" />
+</svg>

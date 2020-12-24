@@ -1,0 +1,16 @@
+.top-nav {
+
+position: fixed;
+
+    .left-nav-item {
+        position: fixed;
+        right: 25px;
+        top: 25px;
+    }
+
+    .right-nav-item {
+        position: fixed;
+        left: 25px;
+        top: 25px;
+    }
+}

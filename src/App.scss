@@ -1,0 +1,23 @@
+
+*,
+*::after,
+*::before {
+    font-size: 62.5%;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.App {
+    display: grid;
+    grid-template-columns: 10rem auto;
+    grid-template-rows: 100vh;
+    height: 100vh;
+    border-radius: 20px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
